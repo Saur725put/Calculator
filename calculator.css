@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Roboto:wght@300&display=swap');
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    padding: 27px 0;
+}
+button{
+    padding: 20px;
+    margin: 3px 0;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(83, 83, 79);
+    color: white;
+    box-shadow: 2px 2px 3px rgb(31, 30, 31);
+    font-size:22px;
+    height: 120;
+}
+button:hover{
+    color: brown;
+    background-color: rgb(225, 160, 80);
+    transition-delay: 0.1s;
+}
+.row input{
+    margin: 4px 0;
+    padding: 6px 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 63px;
+    box-shadow: 2px 2px 3px rgb(31, 30, 31);
+    width: 410;
+    height: 100px;
+}
+.operator1{
+    background-color: rgb(238, 148, 13);
+}
+.operator1:hover{
+    background-color:rgb(78, 98, 202); 
+}
+.btn{
+    width: 307px;
+}
